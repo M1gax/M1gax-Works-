@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Math Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Advanced Math Library</h1>
+    <nav>
+      <ul>
+        <li><a href="#summary">Math Summaries</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#3d">3D Models</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#membership">Membership</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="summary">
+    <h2>Math Summaries</h2>
+    <div class="categories">
+      <div class="category">
+        <h3>Algebra</h3>
+        <p>Algebra summaries and solved examples.</p>
+      </div>
+      <div class="category">
+        <h3>Geometry</h3>
+        <p>Geometry summaries and solved examples.</p>
+      </div>
+      <div class="category">
+        <h3>Calculus</h3>
+        <p>Calculus summaries and solved examples.</p>
+      </div>
+      <div class="category">
+        <h3>Statistics</h3>
+        <p>Statistics summaries and solved examples.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <h2>Interactive Tools</h2>
+    <div class="tool" id="calculator">
+      <h3>Advanced Calculator</h3>
+      <input id="num1" type="number" placeholder="Enter number 1">
+      <input id="num2" type="number" placeholder="Enter number 2">
+      <button onclick="calculate()">Calculate</button>
+      <p id="result"></p>
+    </div>
+    <div class="tool" id="graph">
+      <h3>Graphing Tool</h3>
+      <canvas id="chart"></canvas>
+    </div>
+  </section>
+
+  <section id="training">
+    <h2>Training & Quizzes</h2>
+    <div class="quiz">
+      <h3>Quick Quiz</h3>
+      <p>Test your knowledge with a quick quiz!</p>
+    </div>
+  </section>
+
+  <section id="3d">
+    <h2>3D Models</h2>
+    <div id="model3d"></div>
+  </section>
+
+  <section id="videos">
+    <h2>Educational Videos</h2>
+    <div class="video-list">
+      <div class="video-item">
+        <h3>Algebra Tutorial</h3>
+        <video controls>
+          <source src="algebra-tutorial.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="video-item">
+        <h3>Geometry Tutorial</h3>
+        <video controls>
+          <source src="geometry-tutorial.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership">
+    <h2>Membership Plans</h2>
+    <p>Choose your plan:</p>
+    <ul>
+      <li>Free Plan: Access basic content</li>
+      <li>Premium Plan: Access all tools and advanced content</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Advanced Math Library</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.137.5/build/three.min.js"></script>
+</body>
+</html>
